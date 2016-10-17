@@ -1,0 +1,17 @@
+td
+{
+	border-color: black;
+	border-style: solid;
+	height: 40px;
+	width: 5%;
+	background-color: white;
+	color: white;
+}
+
+#gameBoard
+{
+	border-color: black;
+	border-style: solid;
+	width: 40%;
+	background-color: blue;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Connect 4</title>
+<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+	<h1>Welcome to Connect 4!</h1>
+	<h2 id = "message">Start the game when ready.</h2>
+	<div id = "gameBoard">
+		<table>
+			<tr>
+				<td id = "1">(1,1)</td>
+				<td id = "2">(1,2)</td>
+				<td id = "3">(1,3)</td>
+				<td id = "4">(1,4)</td>
+				<td id = "5">(1,5)</td>
+				<td id = "6">(1,6)</td>
+				<td id = "7">(1,7)</td>
+			</tr>
+			<tr>
+				<td id = "8">(2,1)</td>
+				<td id = "9">(2,2)</td>
+				<td id = "10">(2,3)</td>
+				<td id = "11">(2,4)</td>
+				<td id = "12">(2,5)</td>
+				<td id = "13">(2,6)</td>
+				<td id = "14">(2,7)</td>
+			</tr>
+			<tr>
+				<td id = "15">(3,1)</td>
+				<td id = "16">(3,2)</td>
+				<td id = "17">(3,3)</td>
+				<td id = "18">(3,4)</td>
+				<td id = "19">(3,5)</td>
+				<td id = "20">(3,6)</td>
+				<td id = "21">(3,7)</td>
+			</tr>
+			<tr>
+				<td id = "22">(4,1)</td>
+				<td id = "23">(4,2)</td>
+				<td id = "24">(4,3)</td>
+				<td id = "25">(4,4)</td>
+				<td id = "26">(4,5)</td>
+				<td id = "27">(4,6)</td>
+				<td id = "28">(4,7)</td>
+			</tr>
+			<tr>
+				<td id = "29">(5,1)</td>
+				<td id = "30">(5,2)</td>
+				<td id = "31">(5,3)</td>
+				<td id = "32">(5,4)</td>
+				<td id = "33">(5,5)</td>
+				<td id = "34">(5,6)</td>
+				<td id = "35">(5,7)</td>
+			</tr>
+			<tr>
+				<td id = "36">(6,1)</td>
+				<td id = "37">(6,2)</td>
+				<td id = "38">(6,3)</td>
+				<td id = "39">(6,4)</td>
+				<td id = "40">(6,5)</td>
+				<td id = "41">(6,6)</td>
+				<td id = "42">(6,7)</td>
+			</tr>
+		</table>
+	</div>
+	<select id = "gameType">
+		<option>1 Player</option>
+		<option>2 Player</option>
+	</select>
+	<select id = "difficulty">
+		<option>Easy</option>
+		<option>Hard</option>
+	</select>
+	<button id = "startGame">Start game</button>
+	<p>How to play: click on any space to "drop" your token down that column.
+	<br>This marks the lowest available slot for you!
+	<br>Connect four of your tokens horizontally, vertically, or diagonally to win!</p>
+</body>
+<script src="index.js"></script>
+
+</body>
+</html>
